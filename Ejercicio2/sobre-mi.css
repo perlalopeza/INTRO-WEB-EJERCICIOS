@@ -41,6 +41,8 @@ h2{
     height: 200px;
     display: block;
     margin: 0 auto;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 .hobbies{
@@ -52,12 +54,23 @@ h2{
 
 .listas{
     list-style-position: inside;
-    text-align: center;
-    font-family: cursive;
-    
+    font-family: cursive; 
 }
 
 .texto{
     font-family:cursive;
     text-align: justify;
+}
+
+#contenedor-de-canciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor-de-hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

@@ -8,6 +8,32 @@ h1{
 
 }
 
+#btn-ejercicio-1{
+    color: rgb(8, 1, 43);
+    font-family: cursive;
+    font-size: 100%;
+    background-color: rgb(105, 175, 202);
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, rgb(77, 146, 211), rgb(26, 155, 160), rgb(43, 206, 130)) 2;
+    width: 200px;
+    height: 80px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
 #btn-ejercicio-2{
-    
+    color: rgb(8, 1, 43);
+    font-family: cursive;
+    font-size: 100%;
+    background-color: rgb(211, 141, 199);
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, rgb(121, 67, 247), rgb(243, 104, 201), rgb(165, 66, 204)) 2;
+    width: 200px;
+    height: 80px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+#contenedor-de-botones{
+    text-align: center;
 }
